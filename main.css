@@ -2,22 +2,23 @@
 @import url('/assets/fonts/fa.css');
 
 
-* {
+.box {
     box-sizing: border-box;
 }
 
-body {
+p {
     margin: 0;
     padding: 0;
     background: #2c2f33;
     color: #FFF;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-weight: 400;
     text-align: center;
 }
 
-h1, h2 {
+h1 {
     font-weight: 400;
+    font-family: "Roboto";
 }
 
 
