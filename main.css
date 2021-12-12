@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-p {
+.p {
     margin: 0;
     padding: 0;
     background: #2c2f33;
@@ -16,7 +16,7 @@ p {
     text-align: center;
 }
 
-h1 {
+.h1 {
     font-weight: 400;
     font-family: "Roboto";
 }
