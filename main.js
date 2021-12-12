@@ -1,16 +1,15 @@
-var input = document.querySelector('#url');
+<button onclick="myFunction()">Confirm!</button>
 
-input.addEventListener('keyup', (key) => {
-    if (key.keyCode == 13) { 
-        if (!input.value.trim().length) return;
-        window.location.assign(`/prox/?url=${btoa(input.value)}`);
-    }
-});
+<p id="demo"></p>
 
-
-document.querySelector("#initiate").addEventListener('click', () => {
-
-    if (!input.value.trim().length) return;
-    window.location.assign(`/prox/?url=${btoa(input.value)}`);
-
-});
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
