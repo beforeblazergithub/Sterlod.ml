@@ -2,37 +2,19 @@
 <html>
 <head>
 	<div class="navbar">
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="#">Home</a>
-    <a href="#">Games</a>
-    <a href="#">Movies</a>
-    <a href="#">Help / Info</a>
-  <a href="/index">Home</a>
-  <a href="/updates">Updates</a>
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
   <div class="dropdown">
-    <button class="dropbtn">Games
+    <button class="dropbtn">Dropdown 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Minecraft 1</a>
-      <a href="#">Minecraft 2</a>
-      <a href="#">Minecraft 3</a>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
   </div> 
 </div>
-</div>
-</div>
-	<script>
-function openNav() {
-  document.getElementById("myNav").style.height = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
-</script>
 	<h1><span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;Menu</span></h1>
 
 	 <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/vectors/man-in-a-hoodie-with-a-hood-and-glasses-looks-at-the-computer-vector-id1058534872?k=20&m=1058534872&s=612x612&w=0&h=sAN4pb_TMJy2gqeaaitHvrI0tiqqVEoWYBQ_qX8auO4=">
@@ -105,6 +87,26 @@ body {
 </style>
 </head>
 <body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Home</a>
+    <a href="#">Games</a>
+    <a href="#">Movies</a>
+    <a href="#">Help / Info</a>
+  </div>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
 </body>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -174,4 +176,19 @@ body {
 </style>
 </head>
 <body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
 </html>
