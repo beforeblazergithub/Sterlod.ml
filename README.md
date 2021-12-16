@@ -1,7 +1,5 @@
-3555.sterlod.ml
-
-
-
-
+Sterlod.ml
+Made by :
+Blazer / GameDev / Hunter
 Login :
-3555.sterlod.ml/login.html
+sterlod.ml/login
